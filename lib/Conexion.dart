@@ -153,11 +153,11 @@ class MyStatelessWidget extends StatelessWidget {
                                 child: Row( // Replace with a Row for horizontal icon + text
                                 children: <Widget>[
                                 Icon(Icons.clear, color: Colors.white,),
-                                Text("Remove",style: TextStyle(color: Colors.white),)
+                                Text("Eliminar",style: TextStyle(color: Colors.white),)
                                 ],
                                 ),
           ),
-          title: 'JIM DOE',
+          title: 'Carlos Longobardi',
         ),
         CustomListItem(
           user: 'Enjoying life and living with love',
@@ -172,11 +172,11 @@ class MyStatelessWidget extends StatelessWidget {
                                 child: Row( // Replace with a Row for horizontal icon + text
                                 children: <Widget>[
                                 Icon(Icons.clear, color: Colors.white,),
-                                Text("Remove",style: TextStyle(color: Colors.white),)
+                                Text("Eliminar",style: TextStyle(color: Colors.white),)
                                 ],
                                 ),
           ),
-          title: 'JANE DOE',
+          title: 'Fabrizio Longobardi',
         ),
 
         CustomListItem(
@@ -192,11 +192,11 @@ class MyStatelessWidget extends StatelessWidget {
                                 child: Row( // Replace with a Row for horizontal icon + text
                                 children: <Widget>[
                                 Icon(Icons.clear, color: Colors.white,),
-                                Text("Remove",style: TextStyle(color: Colors.white),)
+                                Text("Eliminar",style: TextStyle(color: Colors.white),)
                                 ],
                                 ),
           ),
-          title: 'JONH DOE',
+          title: 'Nicolas Rodriguez',
         ),
 
         CustomListItem(
@@ -208,15 +208,15 @@ class MyStatelessWidget extends StatelessWidget {
           flatButton: FlatButton(
                                 onPressed: () => {},
                                 color: Colors.blue[300],
-                                //padding: EdgeInsets.all(10.0),
+                                
                                 child: Row( // Replace with a Row for horizontal icon + text
                                 children: <Widget>[
                                 Icon(Icons.clear, color: Colors.white,),
-                                Text("Remove",style: TextStyle(color: Colors.white),)
+                                Text("Eliminar",style: TextStyle(color: Colors.white),)
                                 ],
                                 ),
           ),
-          title: 'EK AUR DOE',
+          title: 'Daniel Milla',
         ),
       ],
     );
