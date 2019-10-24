@@ -105,15 +105,11 @@ class MyCustomForm extends StatefulWidget {
 }
 
 class MyCustomFormState extends State<MyCustomForm> {
-  // Crea una clave global que identificará de manera única el widget Form 
-  // y nos permita validar el formulario
-  //
-  // Nota: Esto es un `GlobalKey<FormState>`, no un GlobalKey<MyCustomFormState>! 
+ 
   final _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
-    // Cree un widget Form usando el _formKey que creamos anteriormente
     return Form(
       key: _formKey,
       child: Column(
@@ -124,7 +120,7 @@ class MyCustomFormState extends State<MyCustomForm> {
             'Estado'
           ),
       TextFormField(
-  // El validator recibe el texto que el usuario ha digitado
+
   validator: (value) {
     if (value.isEmpty) {
       return 'Por favor ingrese algo de texto';
@@ -135,7 +131,7 @@ Text(
             'Email'
           ),
           TextFormField(
-  // El validator recibe el texto que el usuario ha digitado
+ 
   validator: (value) {
     if (value.isEmpty) {
       return 'Por favor ingrese algo de texto';

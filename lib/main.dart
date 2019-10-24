@@ -4,8 +4,6 @@ import './home.dart';
 import './Conexion.dart';
 import './Perfil.dart';
 
-//void main() => runApp(MyApp1());
-
 class MyApp1 extends StatefulWidget{
 @override
 State<StatefulWidget> createState(){
@@ -24,7 +22,7 @@ class MyAppState extends State<MyApp1>{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
-    title: 'Ejercicio1',
+    title: 'Aplicacion Flutter',
     theme: ThemeData(primarySwatch: Colors.blue,
     ),
     home: Scaffold(
@@ -41,13 +39,13 @@ class MyAppState extends State<MyApp1>{
         
         BottomNavigationBarItem(
           icon: Icon(Icons.home,color: Colors.black,),
-          title: Text('Home',style: TextStyle(color: Colors.black),),
+          title: Text('Inicio',style: TextStyle(color: Colors.black),),
           backgroundColor: Colors.green,
           
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.favorite_border,color: Colors.black,),
-          title: Text('Conections',style: TextStyle(color: Colors.black),),
+          title: Text('Contactos',style: TextStyle(color: Colors.black),),
           backgroundColor: Colors.red,
         ),
         BottomNavigationBarItem(

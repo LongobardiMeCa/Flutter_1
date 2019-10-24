@@ -206,7 +206,7 @@ class MyStatelessWidget extends StatelessWidget {
                                 ],
                                 ),
           ),
-          title: 'JONH DOE',
+          title: 'NICOLAS RODRIGUEZ',
         ),
 
         CustomListItem(
@@ -229,31 +229,10 @@ class MyStatelessWidget extends StatelessWidget {
                                 ],
                                 ),
           ),
-          title: 'EK AUR DOE',
+          title: 'DANIEL MILLA',
         ),
 
-        CustomListItem(
-          user: 'online' ,
-          thumbnail: CircleAvatar(
-                              backgroundImage: AssetImage('Imagenes/Joven1.jpg'),
-                               radius: 40,
-                              ),
-          container: Container(
-                                child: Row( // Replace with a Row for horizontal icon + text
-                                children: <Widget>[
-                                  //Expanded(
-                                   // child:
-                                  Icon(Icons.send, color: Colors.black,),
-                                  //),
-                                  Expanded(
-                                child:
-                                Text("Tu mat mil bhai mood nai bigadna milke",style: TextStyle(color: Colors.black, fontSize: 12.0))
-                                  ),
-                                ],
-                                ),
-          ),
-          title: 'YE B DOE',
-        ),
+    
       ],
     );
   }

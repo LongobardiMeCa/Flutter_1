@@ -34,7 +34,7 @@ class Home extends StatelessWidget {
                             children: <Widget>[
                               Text('CARLOS LONGOBARDI', style: TextStyle(fontSize: 25)),
                               Text('21 ', style: TextStyle(fontSize: 16)),
-                              Text('This is some description about the person, what he/she expects from the partner and also what the want to achieve in the life', style: TextStyle(fontSize: 16)),
+                              Text('Esta es una pequeña descripción acerca de la persona', style: TextStyle(fontSize: 16)),
                             ]
                             ),
                             decoration: new BoxDecoration(
@@ -58,7 +58,7 @@ class Home extends StatelessWidget {
                         child: Row( // Replace with a Row for horizontal icon + text
                         children: <Widget>[
                         Icon(Icons.favorite_border, color: Colors.white,),
-                        Text("Connect",style: TextStyle(color: Colors.white),)
+                        Text("Conectar",style: TextStyle(color: Colors.white),)
                         ],
                         )
                         ),
@@ -67,10 +67,10 @@ class Home extends StatelessWidget {
                         onPressed: () => {},
                         color: Colors.green,
                         padding: EdgeInsets.all(10.0),
-                        child: Row( // Replace with a Row for horizontal icon + text
+                        child: Row( 
                         children: <Widget>[
                         Icon(Icons.send, color: Colors.white,),
-                        Text("Message",style: TextStyle(color: Colors.white),)
+                        Text("Mensaje",style: TextStyle(color: Colors.white),)
                         ],
                         )
                         ),
